@@ -1,0 +1,76 @@
+.chatBot{
+    background-color: #F3F1FB;
+    border-radius: 28px;
+    width: 500px;
+    padding-bottom: 15px;
+}
+.chatBotHeader{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid #E7E7E7;
+    padding: 20px 20px;
+}
+.chatBotHeader .profileImg, 
+.chatBotSection .leftChatImg,
+.chatBotSection .rightChatImg
+{
+    width: 40px;
+    height: 40px;
+}
+.chatBotHeader .profileActive{
+    width: 15px;
+    margin-left: -10px;
+}
+.chatBotSection .rightChat,
+.chatBotSection .leftChat{
+    padding: 20px 20px;
+    display: flex;
+    gap: 25px;
+}
+.chatBotSection .leftChat{
+    justify-content: flex-end;
+}
+
+.chatBotSection .rightChatImg, 
+.chatBotSection .leftChatImg{
+    align-self: flex-end;
+}
+
+.chatBotSection .rightChatText{
+    background-color:#E7E7E7;
+    font-family: 'Syne', sans-serif;
+    border-radius: 8px;
+    width: 300px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.chatBotSection .leftChatText{
+    background-color:#6154A4;
+    color:  #FFFFFF;
+    font-family: 'Syne', sans-serif;
+    border-radius: 8px;
+    width: 300px;
+    padding: 10px;
+}
+.leftChat li {
+    margin-bottom: 5px;
+}
+
+.chatBotFooter{
+    background-color: #FFFFFF;
+    color: #8E8E8E;
+    border-radius: 8px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.chatBotFooter img{
+    width: 20px;
+    height: 20px;
+}

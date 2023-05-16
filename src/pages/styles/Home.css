@@ -1,0 +1,284 @@
+.homeSectionFirst {
+  display: flex;
+  justify-content: space-between;
+}
+.homeSectionIntro {
+  width: 55%;
+}
+.homeSectionChatBot {
+  width: 45%;
+}
+.btn {
+  outline: none;
+  border: 1px solid #6154a4;
+  font-family: "Poppins", sans-serif;
+  border-radius: 18px;
+  padding: 10px 10px;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.ejoy {
+  background-color: #6154a4;
+  color: #ffffff;
+  font-weight: 600px;
+}
+
+.homeSectionIntro h1 {
+  font-family: "Syne", sans-serif;
+  font-weight: 500;
+  font-size: 55px;
+  color: #000000;
+  letter-spacing: 0.01em;
+  margin: 15px 0;
+}
+
+.homeSectionIntro h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.01em;
+  color: #2b2b2ba3;
+  opacity: 0.8;
+  width: 80%;
+}
+.homeJoinUs {
+  display: flex;
+  gap: 20px;
+  font-family: "Inter", sans-serif;
+}
+.homeJoinUsImgs {
+  display: flex;
+  align-items: center;
+}
+.homeJoinUsImgs img {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+}
+.homeJoinHide {
+  margin-left: -30px;
+}
+.homejoinText {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #6154a4;
+  color: white;
+  border: 3px solid #ffffff;
+  margin-left: -30px;
+}
+.homeJoinUsText {
+  font-size: 20px;
+}
+.homeCodeMapping {
+  position: relative;
+}
+.homeCodeMapping .arrow1Img {
+  width: 100%;
+  /* position: absolute; */
+  margin-left: 39%;
+  margin-top: -13%;
+}
+.homeCodeMapping .arrow2Img {
+  width: 60%;
+  position: absolute;
+  right: -5px;
+}
+.homeCodeMapping .codeblock {
+  width: 70%;
+  margin: 40px 0;
+}
+.homeSectionFeatures {
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  margin-top: 20px;
+}
+.homeSectionFeaturesHeader h1 {
+  color: #6154a4;
+  font-family: "Syne", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.homeSectionFeaturesText p {
+  color: #555555;
+  font-family: "Inter", sans-serif;
+  text-align: justify;
+}
+
+.homeSectionFocus {
+  border: 2px solid #6154a4;
+  border-radius: 18px;
+  padding: 50px;
+  padding-bottom: 100px;
+  margin-bottom: 20px;
+}
+.homeSectionFocusHeader,
+.homeSectionFocusText {
+  width: 55%;
+}
+.homeSectionFocusHeader h1 {
+  font-family: "Syne", sans-serif;
+  color: #000000;
+  font-weight: 500;
+  font-size: 35px;
+  margin: 0;
+}
+.homeSectionFocusText p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #555555;
+}
+.homeSectionComponent {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+.homeSectionGenerate {
+  min-height: fit-content;
+  font-family: "Syne", sans-serif;
+  background-image: url("./../../assets/Rectangle\ 38.png");
+  background-position: center;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.homeSectionGenerateTop {
+  display: flex;
+  align-items: flex-start;
+}
+.sectionGenerateIntro {
+  width: 60%;
+}
+.sectionGenerateIntro h1 {
+  width: 70%;
+  margin: 0 auto;
+}
+.homeSectionGenerateTopCard h1 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.GenerateCard img {
+  width: 100%;
+  height: 100%;
+}
+.GenerateCard {
+  width: 350px;
+  height: 400px;
+  background-color: #d9d9d9;
+  border-radius: 14px;
+}
+.homeSectionGenerateBottom {
+  display: flex;
+}
+.homeSectionGenerateBottom .firstCard {
+  width: 40%;
+  margin-top: -100px;
+}
+.homeFooter {
+  background-color: #6154a4;
+  color: white;
+  padding-bottom: 20px;
+}
+.homeFooter .footerliHeader {
+  font-family: "Syne", sans-serif;
+  font-size: 2rem;
+}
+.homeFooter ul {
+  list-style: none;
+}
+.footerTable ul {
+  padding-left: 0;
+}
+.homeFooter .footerTable li {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  margin: 20px 0;
+}
+.homeFooter .footerTable {
+  display: flex;
+  justify-content: space-between;
+}
+.homeFooter .ul {
+  width: 20px;
+}
+.homeFooter h1 {
+  font-family: "Syne", sans-serif;
+}
+.footerInfo {
+  display: flex;
+}
+.footerInfo ul {
+  display: flex;
+  gap: 20px;
+  padding-left: 0;
+  font-size: 1.3rem;
+}
+.footerSocials,
+.footerTerms {
+  width: 50%;
+}
+ul.footerTerms {
+  justify-content: right;
+}
+
+@media screen and (max-width: 1025px) {
+  .homeSectionIntro {
+    width: 60%;
+  }
+  .homeSectionChatBot .chatbotImg {
+    width: 100%;
+  }
+  .homeSectionIntro h1 {
+    font-size: 40px;
+  }
+  .homeSectionIntro h2 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .homeCodeMapping .arrow1Img {
+    margin-left: 40%;
+    margin-top: -30%;
+  }
+  .homeSectionFeatures {
+    width: 95%;
+  }
+  .homeSectionFocusHeader,
+  .homeSectionFocusText {
+    width: 60%;
+  }
+  .homeSectionFocusHeader h1 {
+    font-size: 30px;
+  }
+  .homeSectionFocusText p {
+    font-size: 0.7rem;
+  }
+  .homeSectionGenerate {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.5rem;
+  }
+  .homeSectionGenerateBottom .firstCard {
+    width: 45%;
+  }
+}
