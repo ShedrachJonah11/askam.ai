@@ -121,16 +121,12 @@ const Home = () => {
               <li>Classify</li>
               <li>Rerank</li>
               <li>Summarize</li>
-              <li>Summarize</li>
-              <li>Summarize</li>
             </ul>
             <ul>
               <li className="footerliHeader">About</li>
               <li>Summarize</li>
               <li>Classify</li>
               <li>Rerank</li>
-              <li>Summarize</li>
-              <li>Summarize</li>
               <li>Summarize</li>
             </ul>
             <ul>
@@ -139,16 +135,12 @@ const Home = () => {
               <li>Classify</li>
               <li>Rerank</li>
               <li>Summarize</li>
-              <li>Summarize</li>
-              <li>Summarize</li>
             </ul>
             <ul>
               <li className="footerliHeader">Trusted</li>
               <li>Summarize</li>
               <li>Classify</li>
               <li>Rerank</li>
-              <li>Summarize</li>
-              <li>Summarize</li>
               <li>Summarize</li>
             </ul>
           </div>

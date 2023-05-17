@@ -10,3 +10,8 @@
   background-color: #843ab3;
   border-radius: 20px;
 }
+
+* {
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}

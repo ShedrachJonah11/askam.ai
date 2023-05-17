@@ -248,17 +248,23 @@ ul.footerTerms {
   }
   .homeSectionChatBot .chatbotImg {
     width: 100%;
+    display: none;
   }
   .homeSectionIntro h1 {
-    font-size: 40px;
+    font-size: 55px;
   }
   .homeSectionIntro h2 {
     font-size: 15px;
     line-height: 25px;
   }
+  .homeCodeMapping .codeblock {
+    width: 170%;
+  }
   .homeCodeMapping .arrow1Img {
-    margin-left: 40%;
-    margin-top: -30%;
+    display: none;
+  }
+  .homeCodeMapping .arrow2Img {
+    display: none;
   }
   .homeSectionFeatures {
     width: 95%;
@@ -274,11 +280,43 @@ ul.footerTerms {
     font-size: 0.7rem;
   }
   .homeSectionGenerate {
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: 1.5rem;
+    text-align: center;
+  }
+  .homeSectionGenerateTop .sectionGenerateIntro {
+    width: 100%;
+  }
+  .homeSectionGenerateTopCard {
+    display: none;
+  }
+  .homeSectionGenerateTop {
+    flex-direction: column;
   }
   .homeSectionGenerateBottom .firstCard {
-    width: 45%;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 0;
+  }
+  .homeSectionGenerateBottom .secondCard {
+    display: none;
+  }
+  .homeSectionComponent {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .homeFooter .footerTable {
+    flex-direction: column;
+  }
+  .homeFooter .footerInfo {
+    flex-direction: column;
+  }
+  .footerSocials {
+    margin-bottom: 20px;
+  }
+  .footerTerms {
+    margin-top: 20px;
+  }
+  .homeFooter .footerTerms {
+    justify-content: center;
+    width: auto;
   }
 }
