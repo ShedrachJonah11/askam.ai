@@ -18,13 +18,12 @@ const Home = () => {
         <section className="homeSectionFirst">
           <div className="homeSectionIntro">
             <button className="btn ejoy">Ejoy with Askami AI</button>
-            <h1>
-              Create exceptional products using top-notch language skills.
-            </h1>
+            <h1>Experience cutting-edge AI at your fingertips.</h1>
             <h2>
-              AI is causing a transformation in the way we create, innovate, and
-              interact with the world, rather than simply building impressive
-              products.
+              Obtain swift responses, engage in delightful discussions, request
+              scrumptious recipes, check weather forecasts, and so much more.
+              Effortlessly perform internet searches and rely on AI-powered
+              solutions to provide the information you need.
             </h2>
             <div className="homeJoinUs">
               <div className="homeJoinUsImgs">

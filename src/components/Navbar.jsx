@@ -11,24 +11,25 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar container">
-      <div className="navbarLogo">
-        <img src={Logo} alt="logo" className="navbarLogoImg" />
+    <nav>
+      <div className="navbar container">
+        <div className="navbarLogo">
+          <img src={Logo} alt="logo" className="navbarLogoImg" />
+        </div>
+        <div className="hamburger" onClick={toggleMobileMenu}>
+          {mobileMenuOpen ? <FaTimes size={30} /> : <FaBars size={30} />}
+        </div>
+        <div className={`navbarLinks ${mobileMenuOpen ? "open" : ""}`}>
+          <ul>
+            <li>About Us</li>
+            <li>Pricing</li>
+            <li>Contact Us</li>
+            <button className="navbarBtn">Login</button>
+            <button className="navbarBtn">Sign Up</button>
+          </ul>
+        </div>
       </div>
-      <div className="hamburger" onClick={toggleMobileMenu}>
-        <FaBars />
-      </div>
-
-      <div className={`navbarLinks ${mobileMenuOpen ? "open" : ""}`}>
-        <ul>
-          <li>About Us</li>
-          <li>Pricing</li>
-          <li>Contact Us</li>
-          <button className="navbarBtn">Login</button>
-          <button className="navbarBtn">Sign Up</button>
-        </ul>
-      </div>
-    </div>
+    </nav>
   );
 };
 

@@ -85,7 +85,6 @@
 }
 .homeCodeMapping .arrow1Img {
   width: 100%;
-  /* position: absolute; */
   margin-left: 39%;
   margin-top: -13%;
 }
@@ -293,7 +292,7 @@ ul.footerTerms {
   }
   .homeSectionGenerateBottom .firstCard {
     width: 100%;
-    margin-left: 5%;
+    margin-left: 1%;
     margin-top: 0;
   }
   .homeSectionGenerateBottom .secondCard {
