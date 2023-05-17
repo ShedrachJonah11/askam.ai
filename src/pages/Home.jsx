@@ -17,7 +17,7 @@ const Home = () => {
       <div className="container">
         <section className="homeSectionFirst">
           <div className="homeSectionIntro">
-            <button className="btn ejoy">Ejoy with Askami AI</button>
+            <button className="btn ejoy">Enjoy with Askami AI</button>
             <h1>Experience cutting-edge AI at your fingertips.</h1>
             <h2>
               Obtain swift responses, engage in delightful discussions, request
