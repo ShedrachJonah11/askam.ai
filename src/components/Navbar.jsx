@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./styles/Navbar.css";
 import Logo from "./../assets/logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { path } from "../Routes/Router";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -24,8 +26,8 @@ const Navbar = () => {
             <li>About Us</li>
             <li>Pricing</li>
             <li>Contact Us</li>
-            <button className="navbarBtn">Login</button>
-            <button className="navbarBtn">Sign Up</button>
+            <Link to={path.LOGIN} className="navbarBtn">Login</Link>
+            <Link to={path.REGISTER} className="navbarBtn">Sign Up</Link>
           </ul>
         </div>
       </div>
