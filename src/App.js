@@ -1,18 +1,18 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-// import Login from "./pages/Login";
-// import Signup from "./pages/Signup";
+import { path } from "./Routes/Router";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Home />
-      {/* <Login /> */}
-      {/* <Signup /> */}
-    </div>
+    <Routes>
+      <Route path={path.HOME} element={<Home />} />
+      <Route path={path.LOGIN} element={<Login />} />
+      <Route path={path.REGISTER} element={<Signup />} />
+    </Routes>
   );
 }
 
