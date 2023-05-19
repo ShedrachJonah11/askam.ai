@@ -1,6 +1,8 @@
 .homeSectionFirst {
   display: flex;
   justify-content: space-between;
+  background-color: beige;
+  width: 100%;
 }
 .homeSectionIntro {
   width: 55%;
@@ -198,6 +200,7 @@
   background-color: #6154a4;
   color: white;
   padding-bottom: 20px;
+  width: 100%;
 }
 .homeFooter .footerliHeader {
   font-family: "Syne", sans-serif;
@@ -241,9 +244,21 @@ ul.footerTerms {
   justify-content: right;
 }
 
+.home{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+}
+.footer-container{
+  padding: 5rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 @media screen and (max-width: 1025px) {
   .homeSectionIntro {
-    width: 60%;
+    width: 100%;
   }
   .homeSectionChatBot .chatbotImg {
     width: 100%;
@@ -318,4 +333,10 @@ ul.footerTerms {
     justify-content: center;
     width: auto;
   }
+}
+
+.TopContainer{
+  width: 100%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
