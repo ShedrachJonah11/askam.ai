@@ -1,12 +1,22 @@
-.navbar {
+.navbar-container {
   display: flex;
   align-items: center;
-  padding: 20px 0;
+  padding: 30px 10px;
   justify-content: space-between;
+  width: 100%;
 }
 
 .navbarLogo {
   width: 30%;
+}
+*{
+  margin: 0;
+}
+
+.parent-nav{
+  display: flex;
+  width: 100vw;
+  /* background-color: #000; */
 }
 
 .navbarLogoImg {
