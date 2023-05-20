@@ -1,7 +1,7 @@
 .homeSectionFirst {
   display: flex;
   justify-content: space-between;
-  background-color: beige;
+  /* background-color: beige; */
   width: 100%;
 }
 .homeSectionIntro {
@@ -244,13 +244,13 @@ ul.footerTerms {
   justify-content: right;
 }
 
-.home{
+.home {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items:  center;
+  align-items: center;
 }
-.footer-container{
+.footer-container {
   padding: 5rem;
   padding-left: 10%;
   padding-right: 10%;
@@ -272,7 +272,7 @@ ul.footerTerms {
     line-height: 25px;
   }
   .homeCodeMapping .codeblock {
-    width: 170%;
+    width: 130%;
   }
   .homeCodeMapping .arrow1Img {
     display: none;
@@ -335,7 +335,7 @@ ul.footerTerms {
   }
 }
 
-.TopContainer{
+.TopContainer {
   width: 100%;
   padding-left: 8%;
   padding-right: 8%;

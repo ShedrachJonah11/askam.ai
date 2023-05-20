@@ -31,7 +31,11 @@ const Login = () => {
         </div>
         <br />
         <div className={"inputContainer"}>
-          <input value={password} placeholder="Password" className={"inputBox"} />
+          <input
+            value={password}
+            placeholder="Password"
+            className={"inputBox"}
+          />
           <label className="errorLabel">{passwordError}</label>
         </div>
         <br />

@@ -15,8 +15,10 @@ const Navbar = () => {
   return (
     <section className="parent-nav">
       <div className="navbar-container">
-        <div className="navbarLogo">
-          <img src={Logo} alt="logo" className="navbarLogoImg" />
+        <div>
+          <Link to="/" className="navbarLogo">
+            <img src={Logo} alt="logo" className="navbarLogoImg" />
+          </Link>
         </div>
         <div className="hamburger" onClick={toggleMobileMenu}>
           {mobileMenuOpen ? <FaTimes size={30} /> : <FaBars size={30} />}
@@ -26,14 +28,16 @@ const Navbar = () => {
             <li>About Us</li>
             <li>Pricing</li>
             <li>Contact Us</li>
-            <Link to={path.LOGIN} className="navbarBtn">Login</Link>
-            <Link to={path.REGISTER} className="navbarBtn">Sign Up</Link>
+            <Link to={path.LOGIN} className="navbarBtn">
+              Login
+            </Link>
+            <Link to={path.SIGNUP} className="navbarBtn">
+              Sign Up
+            </Link>
           </ul>
         </div>
       </div>
     </section>
-
-
   );
 };
 
