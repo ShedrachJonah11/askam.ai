@@ -51,7 +51,7 @@ const Signup = () => {
             className={"inputButton"}
             type="button"
             onClick={onButtonClick}
-            value={"Log in"}
+            value={"Register"}
           />
         </div>
         <br />

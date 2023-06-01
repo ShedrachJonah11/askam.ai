@@ -19,13 +19,13 @@ const Home = () => {
       <div className="TopContainer">
         <section className="homeSectionFirst">
           <div className="homeSectionIntro">
-            <button className="btn ejoy">Enjoy with Askami AI</button>
+           
             <h1>Experience cutting-edge AI at your fingertips.</h1>
             <h2>
               Obtain swift responses, engage in delightful discussions, request
               scrumptious recipes, check weather forecasts, and so much more.
               Effortlessly perform internet searches and rely on AI-powered
-              solutions to provide the information you need.
+              solutions to provide the information you need....
             </h2>
             <div className="homeJoinUs">
               <div className="homeJoinUsImgs">
@@ -55,7 +55,7 @@ const Home = () => {
           </header>
           <article className="homeSectionFeaturesText">
             <p>
-              Say hello to our latest integration - the AI-powered WhatsApp!
+              Say Hello to our latest integration - the AI-powered WhatsApp!
               With advanced natural language processing and machine learning
               algorithms, it's now easier than ever to create and summarize
               content right within the app. From generating custom messages to
@@ -67,18 +67,14 @@ const Home = () => {
         <section className="homeSectionFocus">
           <header className="homeSectionFocusHeader">
             <h1>
-              Our focus is on developing secure, high-performing language models
-              that cater to the needs of enterprises.
+             Get Started
             </h1>
+            <h2>Easy as ABC, Send hello to your newest buddy,</h2>
+            <h3> Save the number  <a href="http://wa.me/+14155238886">+1 (415) 523-8886</a> </h3>
           </header>
           <article className="homeSectionFocusText">
-            <p>
-              To ensure exceptional support and data security, our
-              high-performance language models can be tailored to fit public,
-              private, or hybrid clouds. We offer customizable options for our
-              language models, allowing you to choose the best fit for your
-              specific needs.
-            </p>
+              On your Whatsapp to get Started
+              <h1>Use the code "Join begun-large" to askam anything</h1>
           </article>
         </section>
         <section className="homeSectionComponent">
@@ -117,46 +113,32 @@ const Home = () => {
         <div className="footer-container">
           <div className="footerTable">
             <ul>
-              <li className="footerliHeader">Product</li>
-              <li>Summarize</li>
+              <li className="footerliHeader">FAQ</li>
+              <li>Community</li>
               <li>Classify</li>
-              <li>Rerank</li>
-              <li>Summarize</li>
             </ul>
             <ul>
               <li className="footerliHeader">About</li>
               <li>Summarize</li>
-              <li>Classify</li>
-              <li>Rerank</li>
-              <li>Summarize</li>
             </ul>
             <ul>
               <li className="footerliHeader">Developers</li>
-              <li>Summarize</li>
-              <li>Classify</li>
-              <li>Rerank</li>
-              <li>Summarize</li>
             </ul>
             <ul>
               <li className="footerliHeader">Trusted</li>
-              <li>Summarize</li>
-              <li>Classify</li>
-              <li>Rerank</li>
-              <li>Summarize</li>
             </ul>
           </div>
-          <h1>ASAKMI</h1>
+          <h1>ASKAMAI</h1>
           <div className="footerInfo">
             <ul className="footerSocials">
               <li>Twitter</li>
-              <li>Linkedin</li>
               <li>Linkedin</li>
               <li>Email</li>
             </ul>
             <ul className="footerTerms">
               <li>Privacy</li>
               <li>Term of Use</li>
-              <li>@askami 2023</li>
+              <li>@askam.ai 2023</li>
             </ul>
           </div>
         </div>
