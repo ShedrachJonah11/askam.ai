@@ -25,20 +25,9 @@ const Home = () => {
               Obtain swift responses, engage in delightful discussions, request
               scrumptious recipes, check weather forecasts, and so much more.
               Effortlessly perform internet searches and rely on AI-powered
-              solutions to provide the information you need....
+              solutions to provide the information you need.
             </h2>
-            <div className="homeJoinUs">
-              <div className="homeJoinUsImgs">
-                <img src={profile} alt="profile1" />
-                <img src={profile} alt="profile2" className="homeJoinHide" />
-                <img src={profile} alt="profile3" className="homeJoinHide" />
-                <img src={profile} alt="profile4" className="homeJoinHide" />
-                <div className="homejoinText">30+</div>
-              </div>
-              <p className="homeJoinUsText">
-                Join us <a href="mailto:@akami.ai">@akami.ai</a>
-              </p>
-            </div>
+           
             <div className="homeCodeMapping">
               <img src={arrow2} alt="arrow2" className="arrow2Img" />
               <img src={codeblock} alt="codeblock" className="codeblock" />
@@ -74,7 +63,7 @@ const Home = () => {
           </header>
           <article className="homeSectionFocusText">
               On your Whatsapp to get Started
-              <h1>Use the code "Join begun-large" to askam anything</h1>
+              <h1>Use the code "Join begun-large" to askam anything!</h1>
           </article>
         </section>
         <section className="homeSectionComponent">
