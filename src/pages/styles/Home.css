@@ -360,15 +360,19 @@ ul.footerTerms {
     width: 60%;
   }
   .homeSectionFocusHeader h1 {
-    font-size: 35px;
+    font-size: 40px;
+    width: 130%;
   }
 
   .homeSectionFocusHeader h2 {
-    /* font-size: 0.8rem; */
     width: 120%;
   }
   .homeSectionFocusText p {
     font-size: 0.7rem;
+  }
+
+  .homeSectionFocusCode {
+    font-size: 17px;
   }
 
   .homeSectionFocus {
