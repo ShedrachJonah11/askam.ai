@@ -19,7 +19,6 @@ const Home = () => {
       <div className="TopContainer">
         <section className="homeSectionFirst">
           <div className="homeSectionIntro">
-           
             <h1>Experience cutting-edge AI at your fingertips.</h1>
             <h2>
               Obtain swift responses, engage in delightful discussions, request
@@ -36,7 +35,7 @@ const Home = () => {
                 <div className="homejoinText">30+</div>
               </div>
               <p className="homeJoinUsText">
-                Join us <a href="mailto:@akami.ai">@akami.ai</a>
+                Join our discord <a href="mailto:@akami.ai">@askami.ai</a>
               </p>
             </div>
             <div className="homeCodeMapping">
@@ -66,16 +65,20 @@ const Home = () => {
         </section>
         <section className="homeSectionFocus">
           <header className="homeSectionFocusHeader">
-            <h1>
-             Get Started
-            </h1>
+            <h1>Get Started</h1>
             <h2>Easy as ABC, Send hello to your newest buddy,</h2>
-            <h3> Save the number  <a href="http://wa.me/+14155238886">+1 (415) 523-8886</a> </h3>
           </header>
           <article className="homeSectionFocusText">
-              On your Whatsapp to get Started
-              <h1>Use the code "Join begun-large" to askam anything</h1>
+            On your Whatsapp to get Started
           </article>
+          <h1 className="homeSectionFocusCode">
+            Use the code{" "}
+            <span className="homeSectionFocusSpan">"Join begun-large"</span> to
+            askam anything
+          </h1>
+          <button className="homeSectionFocusButton">
+            <a href="http://wa.me/+14155238886">Get Started</a>
+          </button>
         </section>
         <section className="homeSectionComponent">
           {images.map((image) => {

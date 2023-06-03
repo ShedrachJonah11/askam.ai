@@ -52,6 +52,10 @@
   display: flex;
   gap: 20px;
   font-family: "Inter", sans-serif;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  align-items: center;
+  width: 100%;
 }
 .homeJoinUsImgs {
   display: flex;
@@ -105,6 +109,7 @@
   text-align: center;
   width: 80%;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .homeSectionFeaturesHeader h1 {
   color: #6154a4;
@@ -112,6 +117,7 @@
   font-weight: 500;
   text-align: center;
   font-size: 1.8rem;
+  margin-bottom: 20px;
 }
 
 .homeSectionFeaturesText p {
@@ -124,26 +130,83 @@
   border: 2px solid #6154a4;
   border-radius: 18px;
   padding: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   margin-bottom: 20px;
+  width: 100%;
 }
 .homeSectionFocusHeader,
 .homeSectionFocusText {
-  width: 55%;
+  width: 60%;
 }
 .homeSectionFocusHeader h1 {
   font-family: "Syne", sans-serif;
   color: #000000;
-  font-weight: 500;
-  font-size: 35px;
+  font-weight: bold;
+  font-size: 45px;
   margin: 0;
 }
+
+.homeSectionFocusHeader h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #8c8c8c;
+  margin-top: 20px;
+}
+
 .homeSectionFocusText p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 0.8rem;
   color: #555555;
 }
+
+.homeSectionFocusButton {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #843ab3;
+  color: #fff;
+  transition: 0.5s;
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.homeSectionFocusButton:hover {
+  background-color: #6154a4;
+}
+
+.homeSectionFocusButton a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.homeSectionFocusText {
+  margin-top: 20px;
+  color: #8c8c8c;
+}
+
+.homeSectionFocusCode {
+  color: #8c8c8c;
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
+.homeSectionFocusSpan {
+  color: #000;
+  font-weight: bold;
+}
+
+.homeSectionFocus a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .homeSectionComponent {
   display: flex;
   justify-content: space-between;
@@ -258,8 +321,17 @@ ul.footerTerms {
 
 @media screen and (max-width: 1025px) {
   .homeSectionIntro {
-    width: 100%;
+    width: 300%;
   }
+
+  .homeSectionIntro h1 {
+    width: 120%;
+  }
+
+  .homeSectionIntro h2 {
+    width: 120%;
+  }
+
   .homeSectionChatBot .chatbotImg {
     width: 100%;
     display: none;
@@ -272,7 +344,7 @@ ul.footerTerms {
     line-height: 25px;
   }
   .homeCodeMapping .codeblock {
-    width: 130%;
+    width: 115%;
   }
   .homeCodeMapping .arrow1Img {
     display: none;
@@ -281,23 +353,35 @@ ul.footerTerms {
     display: none;
   }
   .homeSectionFeatures {
-    width: 95%;
+    width: 100%;
   }
   .homeSectionFocusHeader,
   .homeSectionFocusText {
     width: 60%;
   }
   .homeSectionFocusHeader h1 {
-    font-size: 30px;
+    font-size: 35px;
+  }
+
+  .homeSectionFocusHeader h2 {
+    /* font-size: 0.8rem; */
+    width: 120%;
   }
   .homeSectionFocusText p {
     font-size: 0.7rem;
   }
+
+  .homeSectionFocus {
+    padding: 20px;
+  }
+
   .homeSectionGenerate {
     text-align: center;
   }
   .homeSectionGenerateTop .sectionGenerateIntro {
     width: 100%;
+    text-align: center;
+    justify-content: center;
   }
   .homeSectionGenerateTopCard {
     display: none;
@@ -306,9 +390,7 @@ ul.footerTerms {
     flex-direction: column;
   }
   .homeSectionGenerateBottom .firstCard {
-    width: 100%;
-    margin-left: 1%;
-    margin-top: 0;
+    display: none;
   }
   .homeSectionGenerateBottom .secondCard {
     display: none;
