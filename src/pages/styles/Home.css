@@ -127,7 +127,7 @@
 }
 
 .homeSectionTransform h1 {
-  font-size: 40px;
+  font-size: 35px;
   font-family: "Courier New", Courier, monospace;
   font-weight: 500;
 }
@@ -215,7 +215,7 @@ ul.footerTerms {
   }
 
   .homeSectionIntro h2 {
-    width: 120%;
+    width: 100%;
   }
 
   .homeSectionChatBot .chatbotImg {
@@ -231,7 +231,7 @@ ul.footerTerms {
     line-height: 25px;
   }
   .homeCodeMapping .codeblock {
-    width: 115%;
+    width: 100%;
   }
   .homeCodeMapping .arrow1Img {
     display: none;
