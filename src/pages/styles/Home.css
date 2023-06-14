@@ -207,7 +207,7 @@ ul.footerTerms {
 
 @media screen and (max-width: 1025px) {
   .homeSectionIntro {
-    width: 300%;
+    width: 100%;
   }
 
   .homeSectionIntro h1 {
