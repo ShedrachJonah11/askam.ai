@@ -1,11 +1,10 @@
 .homeSectionFirst {
   display: flex;
   justify-content: space-between;
-  /* background-color: beige; */
   width: 100%;
 }
 .homeSectionIntro {
-  width: 55%;
+  width: 65%;
 }
 .homeSectionChatBot {
   width: 45%;
@@ -36,17 +35,16 @@
   color: #000000;
   letter-spacing: 0.01em;
   margin: 15px 0;
+  padding-right: 50%;
+  width: 120%;
 }
 
 .homeSectionIntro h2 {
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 36px;
   letter-spacing: 0.01em;
-  color: #2b2b2ba3;
-  opacity: 0.8;
+  color: #454545;
   width: 80%;
+  font-size: 1rem;
 }
 .homeJoinUs {
   display: flex;
@@ -89,169 +87,57 @@
 .homeCodeMapping {
   position: relative;
 }
+
+.homeCodeMapping .codeblock {
+  margin-top: 16%;
+}
+
 .homeCodeMapping .arrow1Img {
   width: 100%;
-  margin-left: 39%;
-  margin-top: -9%;
+  margin-left: 40%;
+  margin-top: -20%;
 }
 .homeCodeMapping .arrow2Img {
-  width: 60%;
+  width: 70%;
   position: absolute;
-  right: -5px;
+  right: -100px;
+  top: -50px;
 }
-.homeCodeMapping .codeblock {
-  width: 70%;
-  margin: 40px 0;
+
+.homeSectionChatBot {
+  position: relative;
 }
-.homeSectionFeatures {
-  padding: 20px 0;
-  margin: 0 auto;
-  text-align: center;
-  width: 80%;
-  margin-top: 20px;
+.chatbotImg1 {
+  height: 500px;
+  margin-left: 50%;
+  margin-top: 20%;
+}
+.chatbotImg2 {
+  height: 450px;
+  position: absolute;
+  left: 20%;
+  top: 60px;
+  z-index: -1;
+}
+
+.homeSectionTransform {
+  width: 50%;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
-.homeSectionFeaturesHeader h1 {
-  color: #6154a4;
-  font-family: "Syne", sans-serif;
+
+.homeSectionTransform h1 {
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
   font-weight: 500;
-  text-align: center;
-  font-size: 1.8rem;
-  margin-bottom: 20px;
 }
 
-.homeSectionFeaturesText p {
-  color: #555555;
-  font-family: "Inter", sans-serif;
-  text-align: justify;
-}
-
-.homeSectionFocus {
-  border: 2px solid #6154a4;
-  border-radius: 18px;
-  padding: 50px;
-  padding-bottom: 50px;
-  margin-bottom: 20px;
-  width: 100%;
-}
-.homeSectionFocusHeader,
-.homeSectionFocusText {
-  width: 60%;
-}
-.homeSectionFocusHeader h1 {
-  font-family: "Syne", sans-serif;
-  color: #000000;
-  font-weight: bold;
-  font-size: 45px;
-  margin: 0;
-}
-
-.homeSectionFocusHeader h2 {
-  font-family: "Poppins", sans-serif;
+.homeSectionTransform p {
+  margin-top: 10px;
   font-weight: 300;
-  font-size: 1rem;
-  color: #8c8c8c;
-  margin-top: 20px;
+  font-size: 18px;
 }
 
-.homeSectionFocusText p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 0.8rem;
-  color: #555555;
-}
-
-.homeSectionFocusButton {
-  display: flex;
-  gap: 20px;
-  margin-top: 20px;
-  padding: 15px;
-  border-radius: 10px;
-  border: none;
-  background-color: #843ab3;
-  color: #fff;
-  transition: 0.5s;
-  font-family: "Inter", sans-serif;
-  font-size: 1.3rem;
-  cursor: pointer;
-}
-
-.homeSectionFocusButton:hover {
-  background-color: #6154a4;
-}
-
-.homeSectionFocusButton a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.homeSectionFocusText {
-  margin-top: 20px;
-  color: #8c8c8c;
-}
-
-.homeSectionFocusCode {
-  color: #8c8c8c;
-  font-family: "Inter", sans-serif;
-  font-size: 1.3rem;
-  margin-top: 20px;
-}
-
-.homeSectionFocusSpan {
-  color: #000;
-  font-weight: bold;
-}
-
-.homeSectionFocus a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.homeSectionComponent {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 0;
-  padding: 20px 0;
-}
-.homeSectionGenerate {
-  min-height: fit-content;
-  font-family: "Syne", sans-serif;
-  background-image: url("./../../assets/Rectangle\ 38.png");
-  background-position: center;
-  background-size: cover;
-  padding-top: 70px;
-  padding-bottom: 50px;
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size: 1.6rem;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-.homeSectionGenerateTop {
-  display: flex;
-  align-items: flex-start;
-}
-.sectionGenerateIntro {
-  width: 60%;
-}
-.sectionGenerateIntro h1 {
-  width: 70%;
-  margin: 0 auto;
-}
-.homeSectionGenerateTopCard h1 {
-  margin: 0;
-  margin-bottom: 20px;
-}
-.GenerateCard img {
-  width: 100%;
-  height: 100%;
-}
-.GenerateCard {
-  width: 350px;
-  height: 400px;
-  background-color: #d9d9d9;
-  border-radius: 14px;
-}
 .homeSectionGenerateBottom {
   display: flex;
 }
@@ -336,6 +222,7 @@ ul.footerTerms {
     width: 100%;
     display: none;
   }
+
   .homeSectionIntro h1 {
     font-size: 55px;
   }
@@ -352,53 +239,19 @@ ul.footerTerms {
   .homeCodeMapping .arrow2Img {
     display: none;
   }
-  .homeSectionFeatures {
+
+  .chatbotImg1 {
+    display: none;
+  }
+
+  .chatbotImg2 {
+    display: none;
+  }
+
+  .homeSectionTransform {
     width: 100%;
   }
-  .homeSectionFocusHeader,
-  .homeSectionFocusText {
-    width: 60%;
-  }
-  .homeSectionFocusHeader h1 {
-    font-size: 40px;
-    width: 130%;
-  }
 
-  .homeSectionFocusHeader h2 {
-    width: 120%;
-  }
-  .homeSectionFocusText p {
-    font-size: 0.7rem;
-  }
-
-  .homeSectionFocusCode {
-    font-size: 17px;
-  }
-
-  .homeSectionFocus {
-    padding: 20px;
-  }
-
-  .homeSectionGenerate {
-    text-align: center;
-  }
-  .homeSectionGenerateTop .sectionGenerateIntro {
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-  }
-  .homeSectionGenerateTopCard {
-    display: none;
-  }
-  .homeSectionGenerateTop {
-    flex-direction: column;
-  }
-  .homeSectionGenerateBottom .firstCard {
-    display: none;
-  }
-  .homeSectionGenerateBottom .secondCard {
-    display: none;
-  }
   .homeSectionComponent {
     flex-direction: row;
     flex-wrap: wrap;
