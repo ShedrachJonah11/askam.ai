@@ -1,3 +1,9 @@
+.home {
+  background-image: url("./../../assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .homeSectionFirst {
   display: flex;
   justify-content: space-between;
@@ -94,13 +100,13 @@
 
 .homeCodeMapping .arrow1Img {
   width: 100%;
-  margin-left: 40%;
+  margin-left: 45%;
   margin-top: -20%;
 }
 .homeCodeMapping .arrow2Img {
   width: 70%;
   position: absolute;
-  right: -100px;
+  right: -110px;
   top: -50px;
 }
 
@@ -135,7 +141,8 @@
 .homeSectionTransform p {
   margin-top: 10px;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .homeSectionGenerateBottom {
@@ -205,13 +212,57 @@ ul.footerTerms {
   padding-right: 10%;
 }
 
+.homeSectionTransformContainer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin-top: 10px;
+}
+
+.homeSectionTransformContainText {
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.homeSectionTransformContainer h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.homeSectionTransformContain {
+  display: flex;
+  align-items: center;
+}
+
+.homeSectionTransformContain h1 {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.homeSectionTransformContain button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 35px;
+}
+
+.homeSectionTransformContain button:hover {
+  background-color: #45a049;
+}
+
 @media screen and (max-width: 1025px) {
   .homeSectionIntro {
     width: 100%;
   }
 
   .homeSectionIntro h1 {
-    width: 120%;
+    width: 180%;
   }
 
   .homeSectionIntro h2 {
@@ -252,6 +303,9 @@ ul.footerTerms {
     width: 100%;
   }
 
+  .homeSectionTransformContainer {
+    width: 90%;
+  }
   .homeSectionComponent {
     flex-direction: row;
     flex-wrap: wrap;

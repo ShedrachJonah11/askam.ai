@@ -1,15 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles/Home.css";
 import chatbot from "./../assets/chatbot.png";
 import codeblock from "./../assets/codeblock.png";
 import arrow1 from "./../assets/arrow1.png";
 import arrow2 from "./../assets/arrow2.png";
 import profile from "./../assets/profile.png";
+import phone from "./../assets/phone.png";
 import img from "../images.json";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
 
 const Home = () => {
+  const [copied, setCopied] = useState(false);
+
+  const copyCode = () => {
+    const codeToCopy = "Join bugun-large";
+    navigator.clipboard.writeText(codeToCopy);
+    setCopied(true);
+  };
   const { images } = img;
   return (
     <div className="home">
@@ -53,15 +61,18 @@ const Home = () => {
             <h1>Transform your products with Askam.ai</h1>
             <p>
               Easy as ABC, Send hello to your newest buddy, Save the number{" "}
-              <Link to="https://wa.me/+1415-523-8886">+1 (415) 523-8886</Link>{" "}
-              on your Whatsapp to get started Use the code{" "}
+              <Link to="https://wa.me/+14155238886">+1 (415) 523-8886</Link> on
+              your Whatsapp to get started Use the code{" "}
               <span>"Join bugun-large"</span> to askam anything!!
             </p>
           </div>
+          <h2 className="homeSectionTransformContainText">Passcode</h2>
           <div className="homeSectionTransformContainer">
-            <h4>Passcode</h4>
             <div className="homeSectionTransformContain">
-              <h1></h1>
+              <h1>Join bugun-large</h1>
+              <button onClick={copyCode}>
+                {copied ? "Copied!" : "Copy Code"}
+              </button>
             </div>
           </div>
         </section>
