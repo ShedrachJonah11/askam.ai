@@ -11,7 +11,14 @@ body {
 }
 .container{
   width: 85%;
-  max-width: 1440px;
+  max-width: 1700px;
   margin: 0 auto;
 }
 
+.homeSectionChatBot {
+  position: relative;
+}
+
+.black{
+  background: black;
+}

@@ -1,0 +1,128 @@
+.homeFooter {
+    background-color: #000000;
+    color: white;
+    padding-bottom: 100px;
+    width: 100%;
+  }
+  .homeFooter .footerliHeader {
+    font-family: "Syne", sans-serif;
+    font-size: 2rem;
+  }
+  .homeFooter ul {
+    list-style: none;
+  }
+  .footerTable ul {
+    padding-left: 0;
+  }
+  .homeFooter .footerTable li {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    margin: 20px 0;
+  }
+  .homeFooter .footerTable {
+    display: flex;
+    justify-content: space-between;
+  }
+  .homeFooter .ul {
+    width: 20px;
+  }
+  .homeFooter h1 {
+    font-family: "Syne", sans-serif;
+  }
+  .footerInfo {
+    display: flex;
+  }
+  .footerInfo ul {
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+    font-size: 1.3rem;
+  }
+  .footerSocials,
+  .footerTerms {
+    width: 50%;
+  }
+  ul.footerTerms {
+    justify-content: right;
+  }
+  @media screen and (max-width: 1025px) {
+    .homeSectionIntro {
+      width: 100%;
+    }
+  
+    .homeSectionIntro h1 {
+      width: 120%;
+    }
+  
+    .homeSectionIntro h2 {
+      width: 100%;
+    }
+  
+    .homeSectionChatBot .chatbotImg {
+      width: 100%;
+      display: none;
+    }
+  
+    .homeSectionIntro h1 {
+      font-size: 50px;
+    }
+    .homeSectionIntro h2 {
+      font-size: 15px;
+      line-height: 25px;
+    }
+    .homeCodeMapping .codeblock {
+      width: 100%;
+    }
+    .homeCodeMapping .arrow1Img {
+      display: none;
+    }
+    .homeCodeMapping .arrow2Img {
+      display: none;
+    }
+  
+    .chatbotImg1 {
+      display: none;
+    }
+  
+    .chatbotImg2 {
+      display: none;
+    }
+  
+    .homeSectionTransform {
+      width: 100%;
+    }
+  
+    .homeSectionTransformContainer {
+      width: 90%;
+    }
+    .homeSectionComponent {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .homeFooter .footerTable {
+      flex-direction: column;
+    }
+    .homeFooter .footerInfo {
+      flex-direction: column;
+    }
+    .footerSocials {
+      margin-bottom: 20px;
+    }
+    .footerTerms {
+      margin-top: 20px;
+    }
+    .homeFooter .footerTerms {
+      justify-content: center;
+      width: auto;
+    }
+  }
+  
+  .TopContainer {
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  *::-webkit-scrollbar-thumb {
+      background-color: #dfdfdf;
+      border-radius: 20px;
+  }  

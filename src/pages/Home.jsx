@@ -55,62 +55,7 @@ const Home = () => {
             <img src={chatbot} alt="chatbot" className="chatbotImg2" />
           </div>
         </section>
-
-        <section className="homeSectionTransform">
-          <div>
-            <h1>Transform your products with Askam.ai</h1>
-            <p>
-              Easy as ABC, Send hello to your newest buddy, Save the number{" "}
-              <Link to="https://wa.me/+14155238886">+1 (415) 523-8886</Link> on
-              your Whatsapp to get started Use the code{" "}
-              <span>"Join bugun-large"</span> to askam anything!!
-            </p>
-          </div>
-          <h2 className="homeSectionTransformContainText">Passcode</h2>
-          <div className="homeSectionTransformContainer">
-            <div className="homeSectionTransformContain">
-              <h1>Join bugun-large</h1>
-              <button onClick={copyCode}>
-                {copied ? "Copied!" : "Copy Code"}
-              </button>
-            </div>
-          </div>
-        </section>
-      </div>
-      <footer className="homeFooter">
-        <div className="footer-container">
-          <div className="footerTable">
-            <ul>
-              <li className="footerliHeader">FAQ</li>
-              <li>Community</li>
-              <li>Classify</li>
-            </ul>
-            <ul>
-              <li className="footerliHeader">About</li>
-              <li>Summarize</li>
-            </ul>
-            <ul>
-              <li className="footerliHeader">Developers</li>
-            </ul>
-            <ul>
-              <li className="footerliHeader">Trusted</li>
-            </ul>
-          </div>
-          <h1>ASKAMAI</h1>
-          <div className="footerInfo">
-            <ul className="footerSocials">
-              <li>Twitter</li>
-              <li>Linkedin</li>
-              <li>Email</li>
-            </ul>
-            <ul className="footerTerms">
-              <li>Privacy</li>
-              <li>Term of Use</li>
-              <li>@askam.ai 2023</li>
-            </ul>
-          </div>
         </div>
-      </footer>
     </div>
   );
 };

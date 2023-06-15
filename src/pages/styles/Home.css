@@ -17,7 +17,7 @@
 }
 .btn {
   outline: none;
-  border: 1px solid #6154a4;
+  border: 1px solid #e6e6e6;
   font-family: "Poppins", sans-serif;
   border-radius: 18px;
   padding: 10px 10px;
@@ -29,7 +29,7 @@
 }
 
 .ejoy {
-  background-color: #6154a4;
+  background-color: #979797;
   color: #ffffff;
   font-weight: 600px;
 }
@@ -99,8 +99,8 @@
 }
 
 .homeCodeMapping .arrow1Img {
-  width: 100%;
-  margin-left: 45%;
+  width: 90%;
+  margin-left: 55%;
   margin-top: -20%;
 }
 .homeCodeMapping .arrow2Img {
@@ -153,7 +153,7 @@
   margin-top: -100px;
 }
 .homeFooter {
-  background-color: #6154a4;
+  background-color: #454546;
   color: white;
   padding-bottom: 20px;
   width: 100%;
@@ -332,4 +332,8 @@ ul.footerTerms {
   width: 100%;
   padding-left: 8%;
   padding-right: 8%;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #dfdfdf;
+    border-radius: 20px;
 }
