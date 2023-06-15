@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Getstarted.css"
+import "./Howitworks.css"
 import { Link } from "react-router-dom";
 import phones from "./../assets/phones.png";
 

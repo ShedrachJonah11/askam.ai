@@ -55,7 +55,7 @@
 .navbarLinks ul {
   list-style-type: none;
   display: flex;
-  font-family: "Inter", sans-serif;
+  font-family: "Syne";
   gap: 35px;
   justify-content: flex-end;
   cursor: pointer;

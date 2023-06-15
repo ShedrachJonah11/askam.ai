@@ -26,9 +26,6 @@ const Navbar = () => {
         </div>
         <div className={`navbarLinks ${mobileMenuOpen ? "open" : ""}`}>
           <ul>
-            <li>
-              <a href="#Getstarted" >Get Started </a>
-              </li>
 
             <li>
               <a href="#">How it Works</a>
