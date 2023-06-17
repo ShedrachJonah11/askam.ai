@@ -4,7 +4,7 @@ import Logo from "./../assets/logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { path } from "../Routes/Router";
-import { Link as ScrollLink } from 'react-scroll';
+import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -26,15 +26,24 @@ const Navbar = () => {
         </div>
         <div className={`navbarLinks ${mobileMenuOpen ? "open" : ""}`}>
           <ul>
-
             <li>
-              <a href="#">How it Works</a>
-              </li>
-
+              <Link>How it Works</Link>
+            </li>
             <li>
-              <a href="#"> Pricing</a>
-              </li>
-
+              <ScrollLink
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to={path.GETSTARTED}
+              >
+                Get Started
+              </ScrollLink>
+            </li>
+            <li>
+              <Link to="/">Pricing</Link>
+            </li>
           </ul>
         </div>
       </div>

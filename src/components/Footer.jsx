@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 
 
 const Footer = () => {
-return <footer className="homeFooter">
+return (
+  <footer className="homeFooter">
         <div className="footer-container">
           <div className="footerTable">
             <ul>
@@ -38,6 +39,7 @@ return <footer className="homeFooter">
           </div>
         </div>
     </footer>
+)
 
 };
 

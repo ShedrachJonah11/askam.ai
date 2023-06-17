@@ -11,7 +11,6 @@ function App() {
     <Routes>
       <Route path={path.HOME} element={<Home />} />
       <Route path={path.Howitworks} element={<Howitworks/>} />
-
     </Routes>
   );
 }

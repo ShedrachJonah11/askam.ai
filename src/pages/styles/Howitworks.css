@@ -1,0 +1,128 @@
+.home2 {
+  margin-left: 150px;
+}
+
+.homeSectionTransform {
+  background: radial-gradient(
+    90.95% 106.23% at -4.06% 167.75%,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(202, 212, 188, 0.5) 100%
+  );
+  border-radius: 10px;
+  width: 1300px;
+  height: 330px;
+
+}
+
+.wrapper {
+  position: relative;
+  width: 40%;
+  padding: 40px;
+}
+.homeSectionTransform h1 {
+  font-size: 30px;
+  font-family: "Syne";
+  font-weight: 500;
+}
+
+.homeSectionTransform p {
+  margin-top: 25px;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: "syne";
+}
+.homeSectionTransformContainText .h2 {
+  font-weight: 100;
+  margin-top: 50px;
+  left: 100;
+}
+.homeSectionGenerateBottom {
+  display: flex;
+}
+
+.homeSectionTransformContainText {
+  font-weight: 400;
+  margin-top: -70px;
+  margin-bottom: 5px;
+  padding: 40px;
+  top: auto;
+
+}
+
+.homeSectionTransformContainer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 25%;
+  margin-top: -40px;
+  margin-left: 30px;
+}
+
+.homeSectionTransformContainer h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.homeSectionTransformContain {
+  display: flex;
+  align-items: center;
+}
+
+.homeSectionTransformContain h1 {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.homeSectionTransformContain button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 35px;
+}
+
+.homeSectionTransformContain button:hover {
+  background-color: #45a049;
+}
+.homeSectionGenerateBottom .firstCard {
+  width: 100%;
+  margin-top: -90px;
+}
+.phones {
+  height: 250px;
+  margin-left: 120%;
+  margin-top: 20%;
+  position: absolute;
+  left: 197px;
+  top: -365px;
+}
+
+@media screen and (max-width: 1040px) {
+  .home2 {
+    display: block;
+    margin: auto;
+  }
+  .phones {
+    display: none;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .homeSectionTransformContain button {
+    margin-left: 120px;
+  }
+}
+
+.TopContainer {
+  width: 100%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #dfdfdf;
+  border-radius: 20px;
+}
